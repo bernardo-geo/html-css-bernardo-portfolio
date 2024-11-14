@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 2400px) {
     #profile{
         height: 83vh;
         margin-bottom: 6rem;
@@ -64,7 +64,7 @@
         flex-wrap: wrap;
     }
     .contact-info-container p,
-    .nav-links li a{
+    .nav-links li a {
         font-size: 1rem;
     }
     .experience-sub-title {

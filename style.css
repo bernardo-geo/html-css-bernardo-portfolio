@@ -216,7 +216,7 @@ section {
 
 .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 1.5rem;
 }
 
 /* BUTTONS */
@@ -352,6 +352,7 @@ article {
     display: flex;
     width: 10rem;
     justify-content: space-around;
+    justify-items: stretch;
     gap: 0.5rem;
 }
 
