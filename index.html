@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquerries.css" />
+    <link rel="stylesheet" href="styleBlog.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Luis Bernardo Fernandes</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Luis Bernardo Fernandes</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Imagem1.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Luis Bernardo Fernandes</h1>
+        <p class="section__text__p2">Geographic Information Systems (GIS) Analyst | Geologist</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/CV_LuisFernandes.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact info</button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" 
+          alt="My Linkedin profile" 
+          class="icon" onclick="location.href='https://www.linkedin.com/in/lu%C3%ADs-f-273253144/'" />
+          <img src="./assets/github.png" 
+          alt="My Github profile" 
+          class="icon" onclick="location.href='https://github.com/bernardo-geo'" />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">Get To Know More</h1>
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" 
+              alt="Experience icon" 
+              class="icon" 
+              />
+              <h3>Experience</h3>
+              <p>4+ years <br>GIS ANALYST</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" 
+              alt="Education icon" 
+              class="icon" 
+              />
+              <h3>Education</h3>
+              <br>Postgraduate Degree in</br>
+              <p class="section__text__p2">Geographic Information Systems and Science </p>
+              <br>M.Sc. Masters Degree in <br>
+              <p class="section__text__p2">Geosciences</p><br>B.Sc. Bachelors Degree in <br>
+              <p class="section__text__p2">Geology</p>
+            </div>
+          </div>
+          <div class="section__text__p2">
+
+            <br><p style="text-align: justify;"> I'm a geologist with a specialization in Geographic Information Systems (GIS) and a passion for turning data into strategic solutions. With a solid academic background at the University of Minho and Nova IMS, I have been applying and developing my skills in cartography, spatial analysis and remote sensing. 
+              I have experience in GIS tools (QGIS, ArcGIS Pro, PGAdmin 4) and geospatial databases (PostgreSQL, PostGIS). Futhermore, I create thematic maps, develop models and prepare technical reports.</p><br> <!-- Sou geólogo com especialização em Sistemas de Informação Geográfica (SIG) e uma paixão por transformar dados em soluções estratégicas. Com um percurso académico sólido pela Universidade do Minho e Nova IMS, tenho vindo a aplicar e desenvolver as minhas competências em cartografia, análise espacial e deteção remota. -->
+          </div>     
+          <div class="section__text__p2">
+              <br><p style="text-align: justify;">I am responsible for creating, managing, analyzing and interpreting spatial data in the field of land use planning, essentially in the development of Reservas Ecológicas Nacionais (REN).</p><br> <!--Tenho experiência em ferramentas SIG (QGIS, ArcGIS Pro, PGAdmin 4) e bases de dados geoespaciais (PostgreSQL, PostGIS) e crio mapas temáticos, desenvolvo modelos e relatórios técnicos.
+              Sou responsável pela criação, gestão, análise e interpretação de dados espaciais no âmbito do ordenamento do território, essencialmente na elaboração de Reservas Ecológicas Nacionais.
+              Numa vertente de comunicação e marketing tenho vindo a criar conteúdos turísticos para a APP, websites e redes sociais da Geonatour. 
+              Com uma abordagem que alia rigor científico, criatividade e comunicação, participo também em projetos de marketing e consultoria para o setor do turismo e entidades públicas.
+              Além disso, tenho vindo a utilizar ferramentas de IA nos meus trabalhos e, com alguns conhecimentos de programaçação, atualmente, estou a criar um mapa turístico interativo com o objetivo de facilitar a consulta de pontos de interesse para turistas. -->
+              <br><p style="text-align: justify;">
+                In terms of communication and marketing, I have been creating tourist content for Geonatour's APP, websites and social media. 
+                With an approach that combines scientific accuracy, creativity and communication, I also take part in marketing and consultancy projects for the tourism sector and public entities.</p><br> 
+                <br>
+                <p style="text-align: justify;">
+                  In addition, I have been using AI tools in my work and, with some programming knowledge, I am currently creating an interactive tourist map with the aim of making it easier for tourists to consult points of interest.
+                </p><br>        
+            <footer></footer>
+          </div>
+            <h2 class="section__text__p1">Let's build innovative solutions that generate impact?</h2> <!--Vamos construir soluções inovadoras que geram impacto?-->
+            <footer></footer>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" 
+      alt="Arrow icon" 
+      class="icon arrow" 
+      onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">GIS ANALYST</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>QGIS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>ARCGIS PRO</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>POSTGRESQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>POSTGIS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>PGADMIN 4</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>GEOSERVER</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">PROGRAMMING</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JAVASCRIPT</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>VSCODE</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>NETLIFY</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>GITHUB</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">OTHER TOOLS</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>MS WORD</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>MS EXCELL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>MS POWER POINT</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CANVA</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CHATGPT</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">LANGUAGES</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Portuguese</h3>
+                  <p>Native</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>English</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" 
+      alt="Arrow icon" 
+      class="icon arrow" 
+      onclick="location.href='./#projects'"
+      />
+    </section>
+    <footer></footer>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/webmap-exploreid.png" 
+              alt="Project 2"
+              class="project-img" 
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Interactive  Tourist Webmap</h2>
+            <div class="btn-container">
+              <button 
+              class="btn btn-color-2 project-btn" 
+              onclick="location.href='https://github.com/bernardo-geo/exploreId-webmap-main.git'"
+              >
+                Github
+              </button>
+              <button 
+              class="btn btn-color-2 project-btn" 
+              onclick="location.href='https://exploreid-webmap.netlify.app/'"
+              >
+                Webmap
+              </button>
+            </div>
+            <div class="btn-container">
+              <div class="text-container">
+                <p> Development of a tourist map with recommendations for points of interest in the regions - to be developed </p> <!--Elaboração de mapa turístico com recomendações de pontos de interesse nas regiões - em construção-->
+                <p>Built using AI tools and Visual Studio Code software
+                  </p> <!--Construído com recurso a ferramentas de IA e software Visual Studio Code--> 
+              </div>
+            </div>
+          </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/ren-portfolio.png" 
+            alt="Project 2"
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Development of Reserva Ecológica Nacional (REN)</h2>
+          <div class="btn-container">
+            <div class="text-container">
+              <p>Involved in developing RENs for the municipalities of Guarda and Sertã. The REN has helped to protect natural resources, safeguard processes that are essential for good land management and promote the conservation of nature and biodiversity, essential components of our country's biophysical support (CCDRC, I.P.).
+              </p> <!--Envolvido na elaboração de REN's dos Municípios da Guarda e Sertã. A REN tem contribuído para proteger os recursos naturais, salvaguardar processos indispensáveis a uma boa gestão do território e favorecer a conservação da natureza e da biodiversidade, componentes essenciais do suporte biofísico do nosso país (CCDRC, I.P.).-->
+              <p>Developed using Arcgis Pro and QGIS software</p> <!--Elaborado com o apoio do software Arcgis Pro e QGIS-->
+            </div>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Fator_A.jpg" 
+            alt="Project 2"
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Definition of Universal	 Soil	 Loss	 Equation	 (USLE) and multi-criteria decision analysis (AHP)</h2>
+          <div class="btn-container">
+            <div class="text-container">
+              <p>The susceptibility to water erosion of the soil in the Leiria district was assessed using the Universal	 Soil	 Loss	 Equation	 (USLE) and AHP multi-criteria analysis. The geoprocessing was planned, organized and executed using the Model Builder manager in ESRI's ArcGIS Pro software.    
+                 </p> <!--Avaliou-se a suscetibilidade à erosão
+                 hídrica do solo no distrito de Leiria, através da Equação
+                 Universal de Perda de Solo Revista (EUPSR) e análise
+                 multicritério AHP. O fluxo de geoprocessamento foi planeado, organizado e
+                 executado através do gestor Model Builder, do software
+                 ArcGIS Pro, da ESRI.-->
+            </div>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/PlanoEvacua.jpg" 
+            alt="Project 3"
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Analysis of the potential consequences of an earthquake in the Lisbon region</h2>
+          <div class="btn-container">
+            <div class="text-container">
+              <p>The current impact of the 1755 tsunami on the population and buildings in Lisbon parishes was simulated. An evacuation plan was proposed for the main affected squares and vulnerability and hazard maps were obtained.</p>
+              <p>Developed using Arcgis Pro software</p>
+            </div>
+        </div>
+      </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/VETOR_GENERALIZE.png" 
+            alt="Project 3"
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Land use and occupation map - remote sensing project - Part I</h2>
+          <div class="btn-container">
+            <div class="text-container">
+              <p>Changes in land use and occupation in Itabira, Brazil, were analyzed using Sentinel-2 images from 2018 and 2023. Satellite image processing steps were applied, including pre-processing, band transformation and change detection via NDVI. Different spectral signatures were recognized, and consequently different nomenclature classes were defined. The processing made it possible to draw up land use and land cover maps.</p>
+              <p>Developed using Arcgis Pro software</p>
+            </div>
+        </div>
+      </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/NDVI_change_mina_sem0.png" 
+            alt="Project 4"
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">NDVI arithmetic difference analysis map - remote sensing project - Part II</h2>
+          <div class="btn-container">
+            <div class="text-container">
+              <p>NDVI arithmetic difference analysis map, where the three values represent an increase (1) and a decrease (-1) in NDVI. Detail of the temporal difference in the mine area. Changes in land cover - decline in vegetation (negative values), due to the expansion of the exploration area, thus allowing the variability between the different years to be assessed.</p>
+              <p>Developed using Arcgis Pro software</p>
+            </div>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/IDW_ContFillLines.jpg" 
+          alt="Project 2"
+          class="project-img" 
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Comparison of interpolation methods: IDW, OK e EBK</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/estatisticas-figuras.pdf')">Examples</button>
+        </div>
+        <div class="btn-container">
+          <div class="text-container">
+            <p>Spatial interpolation methods Inverse Distance Weighting (IDW), Ordinary Kriging (OK) and Empirical Bayesian Kriging (EBK) for precipitation data from 105 weather stations. Local Moran's I and Global Moran's statistical tools were used, as well as Arcgis Pro's Exploratory Interpolation tool to assess the best interpolation method, and the Geostatistical Wizard was used to improve these results. Arcgis Pro's Focal Statistics and Block Statistics tools were used to analyze the IDW.</p> 
+          </div>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/app-geonatour.png" 
+          alt="Project 2"
+          class="project-img" 
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Tourism content</h2>
+        <div class="btn-container">
+          <button 
+          class="btn btn-color-2 project-btn" 
+          onclick="location.href='https://www.geonatour.com/turismo/'"
+          >
+            Website
+          </button>
+        </div>
+        <div class="btn-container">
+          <div class="text-container">
+            <p>Creation of tourist content for Geonatour's APP, website and social media. Involved in company's marketing and communication strategies. Selling services to clients</p>
+          </div>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/foto-perfil-1.png" 
+          alt="Project 1"
+          class="project-img" 
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">This online portfolio</h2>
+        <div class="btn-container">
+          <button 
+          class="btn btn-color-2 project-btn" 
+          onclick="location.href='https://github.com/bernardo-geo/html-css-bernardo-portfolio.git'"
+          >
+            Github
+          </button>
+        </div>
+        <div class="btn-container">
+          <div class="text-container">
+            <p>Portfolio created in html, css and javascript</p>
+          </div>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/tese-mestrado.png" 
+          alt="Project 1"
+          class="project-img" 
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Master's thesis and scientific article</h2>
+        <div class="btn-container">
+          <button 
+          class="btn btn-color-2 project-btn" 
+          onclick="location.href='https://repositorium.sdum.uminho.pt/handle/1822/65503'"
+          >
+            Repositorium
+          </button>
+          <button 
+          class="btn btn-color-2 project-btn" 
+          onclick="location.href='https://www.lneg.pt/wp-content/uploads/2022/03/10-Fernandes-et-al_ER_SM.pdf'"
+          >
+            Article
+          </button>
+        </div>
+        <div class="btn-container">
+          <div class="text-container">
+            <p>This work presents the palynological study of sedimentary units exposed in a large carbonate succession of the Cenomanian-Turonian age of the Western   Portuguese Carbonate Platform. In this sedimentary units, exposed in the Nazaré promontor were collected twelve samples from the black laminitic marls and marly limestone levels, from the middle Cenomanian. The main focus of the palynological analysis was the taxonomic, palaeoecological and palaeogeographic study of dinoflagellate cyst assemblages (dinocysts), along with  quantitative analysis</p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" 
+      alt="Arrow icon" 
+      class="icon arrow" 
+      onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" 
+          alt="email icon" 
+          class="icon contact-icon email-icon" 
+          />
+          <p href="lbernardo18@hotmail.com">lbernardo18@hotmail.com</p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" 
+          alt="linkedin icon " 
+          class="icon contact-icon" 
+          />
+          <p class="icon" onclick="location.href='https://www.linkedin.com/in/lu%C3%ADs-f-273253144/'">Linkedin</p>
+        </div>
+      </div>
+    </section>
+    <footer >
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Luis Bernardo Fernandes</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
