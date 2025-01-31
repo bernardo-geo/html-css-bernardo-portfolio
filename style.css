@@ -339,25 +339,54 @@ section {
     flex-direction: column;
 }
 
+/* Container dos artigos */
 .article-container {
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: center; /* Mantém o alinhamento central */
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: auto;
 }
 
+/* Cada skill */
 article {
     display: flex;
-    width: 10rem;
-    justify-content: space-around;
-    justify-items: stretch;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.75rem;
+    width: 45%; /* Cada item ocupa 45% da largura no desktop */
+    min-width: 200px; /* Evita que fique muito pequeno */
+    padding: 10px;
 }
 
-article .icon {
-    cursor: default;
+/* Ícone de checkmark */
+article img {
+    width: 22px;
+    height: 22px;
+}
+
+/* Texto das skills */
+article h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Ajustes para ecrãs menores */
+@media screen and (max-width: 768px) {
+    .article-container {
+        flex-direction: column; /* Empilha os itens */
+        align-items: center;
+    }
+
+    article {
+        width: 100%; /* Cada item ocupa a largura total */
+        justify-content: start;
+    }
+
+    article img {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 /* PROJECTS SECTION */
